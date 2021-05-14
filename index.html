@@ -15,8 +15,7 @@
         <div class="container alignment-flex">
             <div>
                 <label for="cep">CEP</label>
-                <input type="text" name="cep" id="cep">
-                <button>Ok</button>
+                <input maxlength="8" type="text" name="cep" id="cep" autocomplete="no">
                 <label for="street">Endereço</label>
                 <input type="text" name="street" id="street">
                 <label for="number">Número</label>
@@ -26,7 +25,7 @@
                 <label for="district">Bairro</label>
                 <input type="text" name="district" id="district">
                 <label for="complemento">Complemento</label>
-                <input type="text" name="complement" id="complment">
+                <input type="text" name="complement" id="complement">
             </div>
             <div>
                 <label for="city">Cidade</label>
@@ -35,6 +34,7 @@
                 <input type="text" name="state" id="state">
             </div>
         </div>
-    </form>  
+    </form>
+    <script src="js/app.js"></script> 
 </body>
 </html>

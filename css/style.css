@@ -24,8 +24,7 @@ form {
 }
 
 .container {
-    background-image: linear-gradient( 135deg, #FFD26F 10%, #3677FF 100%);
-    
+    background: #f3e5f5;
     box-shadow: 10px 10px 15px 0 rgb(0 0 0 / 30%);
     height: 200px;
     width: 800px;
@@ -40,8 +39,9 @@ input, button {
     border: 2px;
     height: 20px;
     margin: 2px;
+    border: 0.5px solid #e1bee7;
+    outline: none;
 }
-
 
 #cep {
     width: 100px;
