@@ -40,7 +40,7 @@ form {
 p {
     color: #5b6197;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin: 5px 0 5px 0;
 }
 
 .container div {
@@ -48,7 +48,7 @@ p {
     flex-direction: column;
     justify-content: center;
     height: 30%;
-    width: 40%;
+    width: 35%;
 }
 
 input {
@@ -68,13 +68,22 @@ label {
     width: 30%;
 }
 
+.container div:last-child {
+    height: 10%;
+    width: 40%;
+    justify-content: center;
+}
+
+
 button {
     background-color: #5b6197;
     color: #ffffff;
     border: none;
+    height: 30px;
+    width: 60px;
+    margin: 0 2px 0 2px;
     border-radius: 5px;
     align-self: center;
-    width: 30%;
     cursor: pointer;
 }
 
@@ -86,7 +95,6 @@ button:hover {
     .container {
         height: 90%;
         width: 90%;
-
     }
    
 }
