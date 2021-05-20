@@ -68,13 +68,6 @@ label {
     width: 30%;
 }
 
-.container div:last-child {
-    height: 10%;
-    width: 40%;
-    justify-content: center;
-}
-
-
 button {
     background-color: #5b6197;
     color: #ffffff;
